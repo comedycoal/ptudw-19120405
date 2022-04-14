@@ -28,6 +28,7 @@ h1 {
 
 #banner-small {
     background-image: url('images/bg_banner.gif');
+    height: 200px;
 }
 
 #banner {
@@ -35,11 +36,32 @@ h1 {
 }
 
 #banner div {
-    background: url('images/logo_bg.png') left top no-repeat, url('images/search_bg.png') right top no-repeat;
+    background: url('images/logo_bg.png') left top no-repeat, 
+                url('images/search_bg.png') right top no-repeat;
+}
+
+#about {
+    background-color: #FA97C2;
+}
+
+#newsletter {
+    border: 2px dotted black;
+    border-radius: 10px !important;
 }
 
 .btn-primary {
     background-color: #FA97C2 !important;
+    border-radius: 20px !important;
+}
+
+.btn-secondary {
+    background-color: black !important;
+    border-radius: 20px !important;
+}
+
+.date-box {
+    background-color: #73C926;
+    border-radius: 20px;
 }
 
 @media (max-width: 576px) {
